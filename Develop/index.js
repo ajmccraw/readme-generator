@@ -31,8 +31,47 @@ const questions = [
     },
 
     {
-        
-    }
+        type: 'input',
+        name: 'description',
+        message: 'Enter a description of your application.'
+    },
+
+    {
+        type: "input",
+        name: 'documentation',
+        message: 'Describe the installation process and instructions.'
+    },
+
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'How will your application be used?'
+    },
+
+    {
+        type: 'input',
+        name: 'screenshot',
+        message: 'Please enter relative path for the screenshot image.'
+    },
+
+    {
+        type: 'input',
+        name: 'features',
+        message: 'What are the main features of your application?'
+    },
+
+    {
+        type: 'input',
+        name: 'acknowledgements',
+        message: 'Who else contributed to this application?'
+    },
+
+    {
+        type: 'list',
+        message:'What license are you using?',
+        name: 'License',
+        choices: ['MIT', 'W3C', 'AWS']
+    },
 ];
 
 
