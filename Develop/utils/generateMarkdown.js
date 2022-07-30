@@ -36,17 +36,32 @@ function renderLicenseLink(license) {
     return `[View Apache license link](https://www.apache.org/licenses/LICENSE-2.0)`
   }
 
-}
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  
+  // Empty string
+  if (!license) {
+    return '';
+  
+    // MIT
+  } if (license === 'MIT') {
+    return 'Licensing is provided by MIT.'
+  
+    // Apache
+  } else if (license === 'Apache') {
+    return 'Licensing is provided by Apache'
+  }
+
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 
 `;
-}
+};
 
 module.exports = generateMarkdown;
