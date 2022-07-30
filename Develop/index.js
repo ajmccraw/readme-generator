@@ -72,8 +72,7 @@ const questions = [
         name: 'License',
         choices: [
             'MIT', 
-            'W3C', 
-            'Academic',
+            'Mozilla', 
             'Apache'
         ]
     }
