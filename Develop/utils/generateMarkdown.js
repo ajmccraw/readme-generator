@@ -2,8 +2,20 @@
 // If there is no license, return an empty string
 
 function renderLicenseBadge(license) {
-  if 
-}
+  //Return an empty string
+  if(!license) {
+    return '';
+    
+    // Return MIT badge
+  } if (license === 'MIT'){
+    return `![APM](https://img.shields.io/apm/l/readme)`
+    
+    // Return Apache badge
+  } else if (license === 'Apache') {
+    return `![AUR license](https://img.shields.io/aur/license/readme)`
+  }
+};
+
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string

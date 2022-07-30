@@ -15,25 +15,25 @@ const questions = [
     {
         type: 'input',
         name: 'title',
-        message: 'Application title?'
+        message: 'What is the name of this project?'
     },
 
     {
         type: 'input',
         name: 'github',
-        message: "Enter your github username please."
+        message: 'What is your github name?'
     },
 
     {
         type: 'input',
         name: 'repo',
-        message: 'Enter the name of your github repo.'
+        message: 'What is the name of your github repo?'
     },
 
     {
         type: 'input',
         name: 'description',
-        message: 'Enter a description of your application.'
+        message: 'Describe what this project is.'
     },
 
     {
@@ -62,8 +62,8 @@ const questions = [
 
     {
         type: 'input',
-        name: 'acknowledgements',
-        message: 'Who else contributed to this application?'
+        name: 'contributing',
+        message: 'Any contributing sources?'
     },
 
     {
