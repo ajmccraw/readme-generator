@@ -43,4 +43,4 @@ THEN I am taken to the corresponding section of the README
 ![Image of generated README preview](/Develop/image-readme-generator.png)
 
 ## License
-
+No known license
