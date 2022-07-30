@@ -92,8 +92,8 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  ${data.questions}
-  * GitHub Account/Link: <a name = "questions">[${data.github}](https://github.com/${data.github})</a>
+  // ${data.questions}
+  * GitHub Username: <a name = "questions">[${data.github}](https://github.com/${data.github})</a>
   * Email: <a name = "questions">${data.email}</a>
 `;
 };
