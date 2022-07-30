@@ -11,7 +11,7 @@ const fs = require('fs');
 
 
 // TODO: Create an array of questions for user input
-inquirer.prompt ([
+const questions = [
     {
         type: 'input',
         name: 'title',
@@ -77,7 +77,7 @@ inquirer.prompt ([
             'Apache'
         ]
     }
-])
+]
 
 
 
@@ -86,13 +86,14 @@ inquirer.prompt ([
 // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
 
+
+// Function to initialize the app
 function init() {
     inquirer.prompt(questions).then(function(userInput){
         const markdownString = generateMarkdown(userInput)
 
 
-        // Function to initialize the app
-
+        
     })
 }
 
