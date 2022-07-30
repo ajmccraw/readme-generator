@@ -1,10 +1,10 @@
-# Readme Generator
+# README Generator
 
   ![APM](https://img.shields.io/apm/l/readme)
   <br />
 
   ## Description
-  A command line application that dynamically generates a professional
+  command-line application that dynamically generates a README
   <br />
 
   ## Table of Contents
@@ -16,7 +16,7 @@
   - [Questions](#questions)
   
   ## Installation
-  visit github repo, clone, and execute node
+  Visit github repo, clone, and execute node in the terminal. Then follow prompts.
 
   ## Usage
   undefined
@@ -28,9 +28,8 @@
   none
 
   ## Tests
-  running through program
+  Tests created to see if it worked include execute node.
 
   ## Questions
-  // undefined
   * GitHub Username: <a name = "questions">[ajmccraw](https://github.com/ajmccraw)</a>
   * Email: <a name = "questions">aj@gmail.com</a>
