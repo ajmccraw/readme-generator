@@ -11,7 +11,7 @@ const fs = require('fs');
 
 
 // TODO: Create an array of questions for user input
-const questions = [
+inquirer.prompt ([
     {
         type: 'input',
         name: 'title',
@@ -70,9 +70,14 @@ const questions = [
         type: 'list',
         message:'What license are you using?',
         name: 'License',
-        choices: ['MIT', 'W3C', 'AWS']
-    },
-];
+        choices: [
+            'MIT', 
+            'W3C', 
+            'Academic',
+            'Apache'
+        ]
+    }
+])
 
 
 
