@@ -38,15 +38,15 @@ const questions = [
 
     {
         type: "input",
-        name: 'documentation',
-        message: 'Describe the installation process and instructions.'
+        name: 'installation',
+        message: 'Describe the installation process.'
     },
 
-    {
-        type: 'input',
-        name: 'usage',
-        message: 'How will your application be used?'
-    },
+    // {
+    //     type: 'input',
+    //     name: 'usage',
+    //     message: 'How will your application be used?'
+    // },
 
     {
         type: 'input',
@@ -54,22 +54,28 @@ const questions = [
         message: 'Please enter your email.'
     },
 
+    // {
+    //     type: 'input',
+    //     name: 'features',
+    //     message: 'What are the main features of your application?'
+    // },
+
     {
         type: 'input',
-        name: 'features',
-        message: 'What are the main features of your application?'
+        name: 'tests',
+        message: 'What are the tests?'
     },
 
     {
         type: 'input',
-        name: 'contributing',
+        name: 'contribution',
         message: 'Any contributing sources?'
     },
 
     {
         type: 'list',
         message:'What license are you using?',
-        name: 'License',
+        name: 'license',
         choices: [
             'MIT', 
             'Apache'
