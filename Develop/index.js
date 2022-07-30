@@ -50,8 +50,8 @@ const questions = [
 
     {
         type: 'input',
-        name: 'screenshot',
-        message: 'Please enter relative path for the screenshot image.'
+        name: 'email',
+        message: 'Please enter your email.'
     },
 
     {
@@ -72,7 +72,6 @@ const questions = [
         name: 'License',
         choices: [
             'MIT', 
-            'Mozilla', 
             'Apache'
         ]
     }
